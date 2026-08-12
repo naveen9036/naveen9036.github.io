@@ -1,558 +1,274 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Naveen Kumar A | Full-Stack Java Developer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Naveen Kumar A, Full-Stack Java Developer with 8+ years of expertise in building scalable web applications and APIs using Java 8+, Spring Boot, Angular, and AWS services."/>
+    <meta name="author" content="Naveen Kumar A"/>
 
-<html lang="en" class="no-js">
-  
-    <head>
-        <meta charset="utf-8"/>
-        <title>Naveen Kumar Portfolio</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="I'm Naveen Kumar A, Java Full Stack Developer with 3.7 years of experience with endowment for creating elegant web applications. Worked on web applications with agile development practices." name="description"/>
-        <meta content="Naveen Kumar A" name="author"/>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">  
+</head>
+<body>
 
-        
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Animated Background Orbs -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
 
-      
-        <link href="css/animate.css" rel="stylesheet">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="nav-brand">Naveen<span>.dev</span></a>
+        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-     
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
-
-       
-		<link rel="shortcut icon" href="img/favicon.png" type="image/png">  
-		
-
-    </head>
-   
-    <body id="body" data-spy="scroll" data-target=".header">
-
-      
-        <header class="header navbar-fixed-top">
-          
-            <nav class="navbar" role="navigation" style="background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);">
-                <div class="container">
-                    
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
-
-                        
-                    </div>
-
-                   
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div>
-            </nav>
-           
-        </header>
-       
-
-       
-        <div id="core" class="promo-block parallax-window"  style="  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);" data-parallax="scroll">
-            <div  class="container">
-			
-			<!-- <div id="stars"></div>
-			<div id="stars2"></div>
-            <div id="stars3"></div> -->
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="promo-block-divider">
-                            <h1 class="promo-block-title"> Hey I'm</h1>
-							<h3 class="promo-block-title">Naveen Kumar</h3>
-							<br>
-                            <div class="promo-block-text">
-							<div class='console-container'><span id='text' style="font-size:25px !important;"></span><div class='console-underscore' id='console'>&#95;</div></div>
-							</div>
-							
-                        </div>
-						<br>
-                        <ul class="list-inline">
-                            <li><a href="https://www.linkedin.com/in/naveen9036" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
-                            <li><a href="mailto: naveen903612@gmail.com" class="social-icons"><i class="icon-envelope"></i></a></li>
-                            <li><a href="https://github.com/naveen9036" class="social-icons"><i class="icon-social-github"></i></a></li>
-                            <li><a href="https://t.me/naveen9036" class="social-icons"><i class="icon-paper-plane"></i></a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                
+    <!-- Hero Section -->
+    <section id="home" class="hero container">
+        <div class="hero-content reveal">
+            <span class="hero-greeting">Hello World, I'm</span>
+            <h1 class="hero-title">Naveen Kumar A.</h1>
+            <h2 class="hero-subtitle">
+                <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+            </h2>
+            <p class="hero-text">
+                Experienced Software Developer with 8+ years of expertise in building scalable microservices and APIs using Java, Spring Boot, Angular, and AWS. Dedicated to delivering high-quality solutions focusing on fault tolerance, security, and continuous improvement.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/naveen9036" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/naveen9036" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:naveen903612@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
-        <div id="about">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Intro</h2>
-                            <p>What I am all about.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <div class="margin-b-60">
-                            <p>I'm Naveen Kumar A, Java Full Stack Developer with 3.7 years of experience with endowment for creating elegant web applications. Worked on web applications with agile development practices. 
-							</p>
-                            <p>Proficient in Java , Python , Spring-Boot, HTML, CSS, TypeScript, Angular 10. Excited to take up the opportunity of web development to build enterprise level web applications.
-							
-							</p>
-                        </div>
+    </section>
 
-                    
-                        <div class="progress-box">
-                            <h5>JAVA 8 <span class="color-heading pull-right">90%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
-                            </div>
-                        </div>
-						
-						<div class="progress-box">
-                            <h5>Python <span class="color-heading pull-right">80%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
-                            </div>
-                        </div>
-						
-							<div class="progress-box">
-                            <h5>Angular-10<span class="color-heading pull-right">70%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
-                            </div>
-                        </div>
-						
-						 <div class="progress-box">
-                            <h5>HTML 5 <span class="color-heading pull-right">80%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
-                            </div>
-                        </div>
-						
-                       
-						 <div class="progress-box">
-                            <h5>CSS 3<span class="color-heading pull-right">75%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
-                            </div>
-                        </div>
-						
-						<div class="progress-box">
-                            <h5>TypeScript <span class="color-heading pull-right">70%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
-                            </div>
-                        </div>
-                        
-                        
-                      
-                    </div>
-                </div>
-               
+    <!-- Core Competencies -->
+    <section id="expertise" class="container">
+        <h2 class="section-title reveal">Core Expertise</h2>
+        <div class="projects-grid reveal" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <div class="glass-card" style="text-align: center; padding: 2rem 1.5rem;">
+                <i class="fas fa-project-diagram" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                <h3 style="margin-bottom: 0.5rem;">System Design</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">Architecting scalable, resilient, and high-performance backend systems for enterprise applications.</p>
+            </div>
+            <div class="glass-card" style="text-align: center; padding: 2rem 1.5rem;">
+                <i class="fas fa-server" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                <h3 style="margin-bottom: 0.5rem;">Cloud Architecture</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">Designing and deploying scalable applications across AWS and GCP infrastructures.</p>
+            </div>
+            <div class="glass-card" style="text-align: center; padding: 2rem 1.5rem;">
+                <i class="fas fa-sync-alt" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                <h3 style="margin-bottom: 0.5rem;">DevOps & CI/CD</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">Creating robust automated build, test, and deployment pipelines using modern DevOps tools.</p>
+            </div>
+            <div class="glass-card" style="text-align: center; padding: 2rem 1.5rem;">
+                <i class="fas fa-cloud" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                <h3 style="margin-bottom: 0.5rem;">Serverless Architecture</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">Leveraging AWS Lambda, API Gateway, and DynamoDB for cost-effective, scalable cloud solutions.</p>
+            </div>
+            <div class="glass-card" style="text-align: center; padding: 2rem 1.5rem;">
+                <i class="fas fa-exchange-alt" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                <h3 style="margin-bottom: 0.5rem;">Event-Driven</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">Building robust asynchronous workflows using Kafka, IBM MQ, and modern messaging patterns.</p>
+            </div>
+            <div class="glass-card" style="text-align: center; padding: 2rem 1.5rem;">
+                <i class="fas fa-microchip" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                <h3 style="margin-bottom: 0.5rem;">IoT Solutions</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">Integrating connected devices and sensors with backend services for real-time data processing.</p>
             </div>
         </div>
-        <div id="experience">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Experience</h2>
-                               
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row row-space-2 margin-b-4">
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                             <img class=" img-responsive" src="img/spring.gif" alt="springboot">
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Spring-Boot</h3>
-                                            <p class="margin-b-5">Strong programming skills in designing and implementation of multi-tier applications using web-based technologies like Spring MVC and Spring Boot.</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service  wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                        <div class="service-element">
-                                             <img class="img-responsive" src="img/angular.gif" alt="angular">
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Angular</h3>
-                                            <p class="margin-b-5">Strong knowledge of Angular 8/10 practices in commonly used modules and creating reusable Components, Pipes and Services.</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-							
-								 <div class="col-md-4 md-margin-b-4" style="margin-top:4px;">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                             <img class=" img-responsive" src="img/django.gif" alt="Django">
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Django</h3>
-                                            <p class="margin-b-5">
-											Good experience in developing web applications implementing Model View Control
-											architecture using Django web application frameworks in Python on  domains.
-											</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-								
-								
-								 <div class="col-md-4 md-margin-b-4" style="margin-top:4px;">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                             <img class=" img-responsive" src="img/frontend.gif" alt="frontend">
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>FrontEnd</h3>
-                                            <p class="margin-b-5">
-											Proficient at designing dynamic web applications using 
-                                             HTML5, CSS3, TypeScript, jQuery,JSON with responsive 
-                                             web applications using Bootstrap.
-											</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-								
-								
-								
-								
-								
-								
-								 <div class="col-md-4 md-margin-b-4" style="margin-top:4px;">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                             <img class=" img-responsive" src="img/rest.gif" alt="restapi">
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>REST API</h3>
-                                            <p class="margin-b-5">
-											Good experience in developing applications with RESTFUL Web Services.
-											</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-								
-								
-								 <div class="col-md-4 md-margin-b-4" style="margin-top:4px;">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                             <img class=" img-responsive" src="img/ci.gif" alt="ci/cd">
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>CI/CD</h3>
-                                            <p class="margin-b-5">
-											Good Knowledge of Amazon Web Service (AWS) EC2 and  Continuous Integration & Continuous Deployment with Jenkins.
-											</p>
-                                        </div>
-                                        <a href="#" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-									
-									
-                                </div>
-                            </div>
-                           
-                        </div>
-                    </div>
-                   
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid reveal">
+            <div class="glass-card">
+                <h3>Technical Profile</h3>
+                <p style="margin-top: 1rem; color: var(--text-muted);">
+                    I specialize in Serverless and Monolith architectures, CI/CD implementations, and event-driven communication. Over the years, I've played a key role in building scalable microservices-based transaction applications from the ground up, securing data, and optimizing system reliability.
+                </p>
+                <div class="skills-container">
+                    <span class="skill-tag">Java 17</span>
+                    <span class="skill-tag">Spring Boot</span>
+                    <span class="skill-tag">Microservices</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Kafka & IBM MQ</span>
+                    <span class="skill-tag">Docker/Kubernetes</span>
+                    <span class="skill-tag">MySQL/PostgreSQL</span>
+                    <span class="skill-tag">DynamoDB</span>
+                    <span class="skill-tag">CI/CD (Jenkins, GitLab, Azure)</span>
+                </div>
+            </div>
+            <div class="glass-card">
+                <h3>Education & Awards</h3>
+                <div style="margin-top: 1.5rem;">
+                    <h4 style="color: var(--accent-color); margin-bottom: 0.25rem;">BE Mechanical Engineering</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Global Academy of Technology (July 2012 – July 2015)</p>
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <h4 style="color: var(--accent-color); margin-bottom: 0.25rem;">Diploma in Mechanical Engineering</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Hindustan Electronics Academy (May 2009 – June 2012)</p>
+                </div>
+                <hr style="border: 0; height: 1px; background: var(--glass-border); margin: 1.5rem 0;">
+                <ul style="color: var(--text-muted); list-style: none; padding-left: 0;">
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-award" style="color: var(--accent-color); margin-right: 10px;"></i><strong>The Star Employee</strong>, Excellence Award (Oct 2021)</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-award" style="color: var(--accent-color); margin-right: 10px;"></i><strong>Mr. Brainiac Award</strong>, Dreammithra Pvt Ltd.</li>
+                    <li><i class="fas fa-certificate" style="color: var(--accent-color); margin-right: 10px;"></i><strong>Generative AI Leader</strong> Certification, Google (2026)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="container">
+        <h2 class="section-title reveal">Work Experience</h2>
+        <div class="timeline reveal">
+            <!-- Job 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">January 2025 – Present</span>
+                <h3 class="timeline-title">Senior Software Engineer</h3>
+                <div class="timeline-company">Best Buy India Pvt Ltd | Bangalore, India</div>
+                <div class="timeline-content">
+                    <p>Building a scalable microservices-based sales transaction application from the ground up focusing on fault tolerance and secure data handling.</p>
+                    <ul>
+                        <li>Designed core microservices using Java 17 and Spring Boot with circuit breakers and outbox patterns.</li>
+                        <li>Integrated IBM MQ and Kafka for reliable event-driven asynchronous messaging.</li>
+                        <li>Designed CI/CD pipelines using Gradle for automated build, test, and deployment workflows.</li>
+                        <li>Mentored junior team members through pair programming and code reviews.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">November 2023 – Present</span>
+                <h3 class="timeline-title">Programmer Analyst</h3>
+                <div class="timeline-company">Boeing India Pvt Ltd | Bangalore, India</div>
+                <div class="timeline-content">
+                    <p>Focusing on key migration projects and cloud infrastructure support using AWS and Azure DevOps.</p>
+                    <ul>
+                        <li>Successfully executed Jira to ADO board migration using custom Java executables.</li>
+                        <li>Resolved bugs in Spring-based applications utilizing AWS EC2, ALB, FSX, and CloudWatch.</li>
+                        <li>Led Jenkins to ADO pipeline migration and GitLab to ADO repository migration.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Job 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">April 2020 – November 2023</span>
+                <h3 class="timeline-title">Full-Stack Java Developer</h3>
+                <div class="timeline-company">Dreammithra Pvt Ltd | Bangalore, India</div>
+                <div class="timeline-content">
+                    <p>Contributed to scalable, responsive web applications including V-Learning portal and VSMS management system.</p>
+                    <ul>
+                        <li>Developed interactive e-learning platform with Angular, Spring Boot, and AWS Lambda.</li>
+                        <li>Engineered SMS-based notification system and AWS Lambda event-driven data cleanup.</li>
+                        <li>Implemented complex nested UI components with ngx-pagination and SSR using API Gateway.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Job 4 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">February 2017 – September 2018</span>
+                <h3 class="timeline-title">Associate</h3>
+                <div class="timeline-company">EXL Service | Bangalore, India</div>
+                <div class="timeline-content">
+                    <p>Experienced in Oracle Agile PLM and Java customizations.</p>
+                    <ul>
+                        <li>Handled application maintenance, configuration, customization, and SDK installation.</li>
+                        <li>Skilled in workflow design and security matrix design for Agile PLM.</li>
+                    </ul>
                 </div>
             </div>
         </div>
-     
-        <div id="work">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Works</h2>
-                            <p>I build the real value.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        
-                        <div class="masonry-grid row row-space-2">
-                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                               
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay" style="background: #246788;border-radius: 15px;">
-                                        <img class="full-width img-responsive" src="img/800x400/01.png" alt="V-Learing logo">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                               <a href="https://v-learning.in/" target="_blank">  <h2 class="margin-b-5">V-Learing</h2> </a> 
-                                                
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>V-Learning is an E-learning portal. At Vista’s Classroom,we bring classroom environment to students. Here students can access to pre-recorded videos of their academics. </p>
-                                                        <p>The Environment created in such a way that students can access to their class videos and take quiz in order to see their performance and it provides live class room with chat based intraction system.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                              
-                            </div>
-                          
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                             
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay" style="background: floralwhite; border-radius: 15px;">
-                                        <img class="full-width img-responsive" src="img/397x400/02.png" alt="vsms logo">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <a href="https://vsms.vistafoundation.co.in/" target="_blank">  <h2 class="margin-b-5">V-SMS</h2> </a> 
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>V-SMS (Vista Smart School Management System) is a software compatible with the web and mobile application and designed by keeping universities, schools, colleges, tutorials, and coaching centers in mind. This smart tool plays a vital role in administering education to students through various educational institutions. </p>
-                                                        <p>In reality, the latest technology cuts down all these costs and makes life easier for both parents and students.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                            </div>
-                              <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                                
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay" >
-                                        <img class="full-width img-responsive" src="img/1920x1080/02.png" alt="ncrypt logo">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <a href="https://play.google.com/store/apps/details?id=com.ndevelopres73.ncryptapp" target="_blank">  <h2 class="margin-b-5">Ncrypt</h2> </a> 
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Ncrypt app can encrypt and lock all file types such as private photos and videos, confidential office documents and any other files for they can not be opened or viewed by others. All the encrypted file can only be opened with the correct password.</p>
-                                                        
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                               
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                            </div>
+    </section>
 
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                               
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/1920x1080/03.webp" alt="LE POS logo">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <a href="javascript:void(0);" target="_blank">  <h2 class="margin-b-5">LE POS App</h2> </a> 
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>LE POS App is B2B Appliaction inorder to  track the sale of particular buisness, managing the inventory , bill of marterial and invoice generation for the customers.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                              
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                          
-                        </div>
-                       
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2 class="section-title reveal">Personal Projects</h2>
+        <div class="projects-grid reveal">
+            <!-- Project 1 -->
+            <div class="glass-card project-card">
+                <div class="project-header">
+                    <i class="fas fa-network-wired project-icon"></i>
+                    <div class="project-links">
+                        <a href="https://connect-ai.in" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-              
+                <h3 class="project-title">Connect-AI.in</h3>
+                <p class="project-desc">A comprehensive AI directory platform designed with a modern glassmorphism UI, allowing users to discover and explore various AI tools and startups easily.</p>
+                <div class="project-tech">
+                    <span>HTML/CSS</span>
+                    <span>JavaScript</span>
+                    <span>Responsive UI</span>
+                </div>
             </div>
-        </div>
-       
-        <div id="contact">
-            <div class="bg-color-sky-light">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <!-- <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Contacts</h2>
-                                <p>Hire me.</p>
-                            </div> -->
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>GitHub</h5>
-                                    <a href="https://github.com/naveen9036" target="_blank">Profile</a>
-                                </div>
 
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Location</h5>
-                                    <a href="javascript:void(0);">Bengaluru, India</a>
-                                </div>
-                                <!-- <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Phone</h5>
-                                    <a href="#">+77 234 548 00 00</a>
-                                </div> -->
-                                <div class="col-md-3 col-xs-6">
-                                    <h5>Email</h5>
-                                    <a href="mailto:#">naveen903612@gmail.com</a>
-                                </div>
-                                <!-- <div class="col-md-3 col-xs-6">
-                                    <h5>Web</h5>
-                                    <a href="#">alex.teseira.com</a>
-                                </div> -->
-                            </div>
-                        </div>
+            <!-- Project 2 -->
+            <div class="glass-card project-card">
+                <div class="project-header">
+                    <i class="fas fa-leaf project-icon"></i>
+                    <div class="project-links">
+                        <a href="https://agri.connect-ai.in" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                     </div>
-                    
+                </div>
+                <h3 class="project-title">Agri Connect-AI</h3>
+                <p class="project-desc">A specialized platform aiming to bring AI solutions and simulations to the agricultural sector, showcasing complex data visualizations and integrations.</p>
+                <div class="project-tech">
+                    <span>Modern Web Design</span>
+                    <span>UI/UX</span>
+                    <span>Web Hosting</span>
                 </div>
             </div>
         </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="container" style="padding-bottom: 10rem;">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-section reveal">
+            <p class="contact-text">
+                Although I'm currently working, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <a href="mailto:naveen903612@gmail.com" class="btn">Say Hello</a>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>Built with <i class="fas fa-heart" style="color: var(--accent-color);"></i> by Naveen Kumar A.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--glass-border);">Inspired by Connect-AI</p>
+    </footer>
 
-      
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-       
-        <script  type="text/javascript">
-consoleText(['Hello World!', "I'm a Full Stack Developer.",'Luv To Build RealWorld App.' ,'♥ to Learn.','Valar Dohaeris ⺖'], 'text',['#33FF00','lightblue','#29bb89','red','rebeccapurple']);
-function consoleText(words, id, colors) {
-  if (colors === undefined) colors = ['#fff'];
-  var visible = true;
-  var con = document.getElementById('console');
-  var letterCount = 1;
-  var x = 1;
-  var waiting = false;
-  var target = document.getElementById(id)
-  target.setAttribute('style', 'color:' + colors[0]+";font-size:35px; font-family: 'Black Ops One', cursive;")
-  letterCount += x;
-  window.setInterval(function() {
-
-    if (letterCount === 0 && waiting === false) {
-      waiting = true;
-      target.innerHTML = words[0].substring(0, letterCount)
-      window.setTimeout(function() {
-        var usedColor = colors.shift();
-        colors.push(usedColor);
-        var usedWord = words.shift();
-        words.push(usedWord);
-        x = 1;
-        target.setAttribute('style', 'color:' + colors[0]+";font-size:35px; font-family: 'Black Ops One', cursive;")
-        letterCount += x;
-        waiting = false;
-      }, 1000)
-    } else if (letterCount === words[0].length + 1 && waiting === false) {
-      waiting = true;
-      window.setTimeout(function() {
-        x = -1;
-        letterCount += x;
-        waiting = false;
-      }, 1000)
-    } else if (waiting === false) {
-      target.innerHTML = words[0].substring(0, letterCount)
-      letterCount += x;
-    }
-  }, 120)
-  window.setInterval(function() {
-    if (visible === true) {
-      con.className = 'console-underscore'
-      visible = false;
-
-    } else {
-      con.className = 'console-underscore'
-
-      visible = true;
-    }
-  }, 400)
-}	
-		</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
-<script>
-VANTA.NET({
-  el: "#core",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0x5b47a0,
-  backgroundColor: 0x8080c
-})
-</script>
-		
-
-    </body>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
 </html>
